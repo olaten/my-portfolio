@@ -243,3 +243,27 @@ footer {
         gap: 15px;
     }
 }
+
+#backToTop {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    background: #38bdf8;
+    color: #0b1120;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+#backToTop:hover {
+    background: #0284c7;
+    color: white;
+    transform: translateY(-4px);
+}
