@@ -52,3 +52,10 @@ backToTop.addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.querySelector("nav ul");
+
+menuToggle.addEventListener("click", function() {
+    console.log("Menu button clicked!");
+    navLinks.classList.toggle("active");
+});
